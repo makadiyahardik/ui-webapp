@@ -4,7 +4,7 @@ import 'react-alice-carousel/lib/alice-carousel.css';
 const Dziala = () => {
     const items = [
        <div className='my-[3rem]'>
-         <div className="w-[380px] h-[480px] bg-[#EDF4EA] rounded-[16px]  flex flex-col  justify-start">
+         <div className="w-[360px] md:w-[380px] h-[480px] bg-[#EDF4EA] rounded-[16px]  flex flex-col  justify-start">
         <div className="p-4">
           {' '}
           <h1 className="text-[#FFF] font-extrabold mt-4 text-[80px] leading-[85px] -tracking-[1.2px]">
@@ -30,7 +30,7 @@ const Dziala = () => {
       </div>
        </div>,
        <div className="my-[3rem]">
-       <div className="w-[380px] h-[480px] bg-[#E6F0D2] rounded-[16px]  flex flex-col  justify-start">
+       <div className="w-[360px] md:w-[380px] h-[480px] bg-[#E6F0D2] rounded-[16px]  flex flex-col  justify-start">
          <div className="p-4">
            {' '}
            <h1 className="text-[#FFF] font-extrabold mt-4 text-[80px] leading-[85px] -tracking-[1.2px]">
@@ -56,7 +56,7 @@ const Dziala = () => {
        </div>
      </div>,
       <div className="my-[3rem]">
-      <div className="w-[380px] h-[480px] bg-[#D8E0C2] rounded-[16px]  flex flex-col  justify-start">
+      <div className="w-[360px] md:w-[380px] h-[480px] bg-[#D8E0C2] rounded-[16px]  flex flex-col  justify-start">
         <div className="p-4">
           {' '}
           <h1 className="text-[#FFF] font-extrabold mt-4 text-[80px] leading-[85px] -tracking-[1.2px]">
@@ -91,7 +91,7 @@ const Dziala = () => {
         <h1 className="text-primary font-extrabold mt-4 text-[44px] leading-[46px] md:text-[65px] md:leading-[69px] md:tracking-[-1.2px] tracking-[-0.88px]">
               Jak to działa:
             </h1>
-            <div className="md:max-w-[1400px] mx-auto  justify-center items-center w-full relative  space-x-5 ">
+            <div className="md:max-w-[1400px] mx-auto  justify-center items-center w-full relative  md:space-x-12 ">
       <AliceCarousel
             mouseTracking
             items={items}
@@ -101,8 +101,8 @@ const Dziala = () => {
             disableButtonsControls
             autoPlay
             autoPlayStrategy="none"
-            autoPlayInterval={1000}
-            animationDuration={1000}
+            autoPlayInterval={2000}
+            animationDuration={2000}
         
           />
       </div>

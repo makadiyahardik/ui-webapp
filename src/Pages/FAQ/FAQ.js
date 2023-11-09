@@ -41,7 +41,7 @@ const FAQ = () => {
           zdaniem temat nie został wyczerpany - napisz do nas.
         </p>
       </div>
-      <div className=" md:max-w-[900px] w-full ">
+      <div className=" md:max-w-[900px] w-full md:px-10 px-5">
         {list.map((item, index) => {
           return (
             <>

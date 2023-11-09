@@ -81,16 +81,14 @@ const PlanSlider = () => {
   };
 
   return (
-    <div className="md:max-w-[1400px] my-[2rem]  md:px-10 px-5 mx-auto w-full relative">
-      <div
-        className={`md:max-w-[1400px] mx-auto  justify-center items-center w-full relative  space-x-5  `}
-        id="carousel"
-      >
+    <div className="md:max-w-[1400px] my-[2rem]  md:px-10  mx-auto w-full relative">
+      
         <AliceCarousel
           mouseTracking
           items={items}
           responsive={responsive}
           infinite={false}
+          disableDotsControls
           renderPrevButton={() => {
             return (
               <div className="hidden md:flex p-4 absolute left-[-4%] top-[35%] cursor-pointer md:flex hidden">
@@ -114,7 +112,6 @@ const PlanSlider = () => {
             );
           }}
         />
-      </div>
     </div>
   );
 };

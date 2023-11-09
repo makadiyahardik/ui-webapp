@@ -134,8 +134,8 @@ function Technology() {
           disableButtonsControls
           autoPlay
           autoPlayStrategy="none"
-          autoPlayInterval={1000}
-          animationDuration={1000}
+          autoPlayInterval={2000}
+          animationDuration={2000}
         />
       </div>
     </div>
