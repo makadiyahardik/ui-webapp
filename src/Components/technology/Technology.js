@@ -1,7 +1,6 @@
 import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
-import Card from '../../atoms/Card';
 function Technology() {
   const items = [
     <div className="my-[3rem]">

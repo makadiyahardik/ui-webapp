@@ -5,19 +5,13 @@ const PlanSlider = () => {
   const items = [
     <div className="md:flex flex md:flex-row flex-col-reverse justify-center items-center mx-auto w-full">
       <div className="flex justify-center items-center md:w-1/2">
-        {/* <div className="hidden md:flex">
-            <img
-              src="./assets/images/leftarrow.png"
-              className="h-auto md:w-[4rem] w-auto"
-              alt=""
-            />
-          </div> */}
+      
         <div>
           {' '}
           <img
             src="./assets/images/iphone14.png"
             className="h-auto md:w-[800px] w-auto"
-            alt=""
+            alt="iphone14"
           />
         </div>
       </div>
@@ -38,13 +32,7 @@ const PlanSlider = () => {
             </p>
           </div>
         </div>
-        {/* <div className="hidden md:flex">
-            <img
-              src="./assets/images/rightarrow.png"
-              className="h-auto md:w-[4rem] w-auto"
-              alt=""
-            />
-          </div> */}
+      
       </div>
     </div>,
     <div className="md:flex flex md:flex-row flex-col-reverse justify-center items-center mx-auto w-full">
@@ -82,13 +70,7 @@ const PlanSlider = () => {
             </p>
           </div>
         </div>
-        {/* <div className="hidden md:flex">
-          <img
-            src="./assets/images/rightarrow.png"
-            className="h-auto md:w-[4rem] w-auto"
-            alt=""
-          />
-        </div> */}
+   
       </div>
     </div>,
   ];
@@ -115,7 +97,7 @@ const PlanSlider = () => {
                 <img
                   src="./assets/images/leftarrow.png"
                   className="h-auto md:w-[4rem] w-auto"
-                  alt=""
+                  alt="leftarrow"
                 />
               </div>
             );
@@ -126,7 +108,7 @@ const PlanSlider = () => {
                 <img
                   src="./assets/images/rightarrow.png"
                   className="h-auto md:w-[4rem] w-auto"
-                  alt=""
+                  alt="rightarrow"
                 />
               </div>
             );

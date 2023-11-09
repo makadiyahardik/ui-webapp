@@ -35,6 +35,7 @@ function Header(props) {
               <img
                 src="./assets/images/logo.png"
                 className="h-[2rem] w-auto "
+                alt="logo-holipho"
               />
               <h1 className="text-[28px] md:flex hidden font-extrabold leading-normal text-primary mx-3">Helfio</h1>
             </div>
@@ -151,6 +152,7 @@ function Header(props) {
               <img
                 src="./assets/images/internet.png"
                 className="h-[1.5rem] w-auto "
+                alt="internet"
               />
               <p className="text-[18px] font-normal leading-[19px] text-bgSeconday mx-3">Zmień na angielski</p>
             </div>

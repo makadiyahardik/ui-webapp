@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Collapse } from 'react-collapse';
 const Accordion = ({ toggle, open, title, desc }) => {
   return (
