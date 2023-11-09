@@ -1,13 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: #ffffff;
+  -webkit-background-color: #ffffff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.customeShadow{
+  box-shadow: 0px 38px 42px -21px rgba(0, 0, 0, 0.05);
+}
+
+.customeColor{
+  background: linear-gradient(270deg, #ABCD4D 0%, #82AC11 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.applehealth{
+  border-radius: 43.56px;
+background: linear-gradient(180deg, #EB4D50 5.22%, #FF88A3 100%);
+}
+
+.googleFit{
+  border-radius: 43.56px;
+background: linear-gradient(180deg, #4285F4 5.22%, #34A853 100%);
+}
+.customeButton{
+  border-radius: 20px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.20);
+
+padding: 12px 26px 12px 33px;
+}
+.startCare{
+  background: linear-gradient(180deg, #EBEBEB 0%, rgba(235, 235, 235, 0.00) 100%);
+}
+
+.footerbg{
+  border-radius: 1257.588px;
+background: linear-gradient(180deg, rgba(225, 245, 215, 0.40) 0%, rgba(215, 245, 218, 0.40) 100%);
+filter: blur(207px);
+
 }
