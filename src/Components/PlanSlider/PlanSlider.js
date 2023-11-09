@@ -19,7 +19,7 @@ const PlanSlider = () => {
       <div className="flex justify-center items-center w-full md:w-1/2">
         <div className="flex flex-col justify-start items-start">
           <div>
-            <div className="font-bold text-[#CBCBCB] tracking-[-0.9px] md:tracking-[-1.3px] md:text-[65px] text-[45px] md:leading-[112px] ">
+            <div className="font-bold text-[#CBCBCB] tracking-[-0.6px] md:tracking-[-1.3px] md:text-[65px] text-[35px] md:leading-[112px] ">
               <h1>
                 Twój spersonalizowany
                 <br />
@@ -35,44 +35,7 @@ const PlanSlider = () => {
       
       </div>
     </div>,
-    <div className="md:flex flex md:flex-row flex-col-reverse justify-center items-center mx-auto w-full">
-      <div className="flex justify-center items-center md:w-1/2">
-        {/* <div className="hidden md:flex">
-          <img
-            src="./assets/images/leftarrow.png"
-            className="h-auto md:w-[4rem] w-auto"
-            alt=""
-          />
-        </div> */}
-        <div>
-          {' '}
-          <img
-            src="./assets/images/iphone14.png"
-            className="h-auto md:w-[800px] w-auto"
-            alt=""
-          />
-        </div>
-      </div>
-
-      <div className="flex justify-center items-center w-full md:w-1/2">
-        <div className="flex flex-col justify-start items-start">
-          <div>
-            <div className="font-bold text-[#CBCBCB] tracking-[-0.9px] md:tracking-[-1.3px] md:text-[65px] text-[45px] md:leading-[112px]">
-              <h1>
-                Twój spersonalizowany
-                <br />
-                <span className="text-[#8FBD12]  ">Dzienny plan</span>{' '}
-              </h1>
-            </div>
-            <p className="font-medium text-secondary text-[18px] leading-[30px]  mt-[2rem]">
-              Twoja spersonalizowana lista zadań, dzięki której poprawisz
-              zdrowie i będziesz cieszyć się dłuższym życiem
-            </p>
-          </div>
-        </div>
-   
-      </div>
-    </div>,
+    
   ];
   const responsive = {
     464: { items: 1 },

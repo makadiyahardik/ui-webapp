@@ -3,26 +3,38 @@ import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 function Applications() {
   const items = [
-    <img
+    <div className='flex justify-center items-center text-center mx-auto w-full'>
+<img
       src="./assets/images/Wellbeing_5.png"
       className="w-[70%] h-auto"
       alt=""
-    />,
-    <img
+    />
+    </div>,
+       <div className='flex justify-center items-center text-center mx-auto w-full'>
+       <img
       src="./assets/images/Wellbeing_4.png"
       className="w-[70%] h-auto"
       alt=""
-    />,
-    <img
+    />
+           </div>,
+   
+   <div className='flex justify-center items-center text-center mx-auto w-full'>
+<img
       src="./assets/images/Wellbeing_3.png"
       className="w-[70%] h-auto"
       alt=""
-    />,
+    />
+       </div>,
+    
+
+    <div className='flex justify-center items-center text-center mx-auto w-full'>
     <img
       src="./assets/images/Wellbeing_1.png"
       className="w-[70%] h-auto"
       alt=""
-    />,
+    />
+           </div>,
+ 
   ];
   const responsive = {
     464: { items: 1 },
