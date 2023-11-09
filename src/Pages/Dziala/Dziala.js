@@ -3,7 +3,7 @@ import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 const Dziala = () => {
     const items = [
-       <div className='my-[3rem] '>
+       <div className='my-[3rem] flex flex-col justify-center items-center mx-auto w-full'>
          <div className="w-[340px] md:w-[380px] md:h-[480px]  h-[540px] bg-[#EDF4EA] rounded-[16px]  flex flex-col  justify-start">
         <div className="p-4">
           {' '}
@@ -29,7 +29,7 @@ const Dziala = () => {
         </div>
       </div>
        </div>,
-       <div className="my-[3rem]">
+       <div className="my-[3rem] my-[3rem] flex flex-col justify-center items-center mx-auto w-full">
        <div className="w-[340px] md:w-[380px] md:h-[480px]  h-[540px] bg-[#E6F0D2] rounded-[16px]  flex flex-col  justify-start">
          <div className="p-4">
            {' '}
@@ -55,7 +55,7 @@ const Dziala = () => {
          </div>
        </div>
      </div>,
-      <div className="my-[3rem]">
+      <div className="my-[3rem] my-[3rem] flex flex-col justify-center items-center mx-auto w-full">
       <div className="w-[340px] md:w-[380px] md:h-[480px]  h-[540px] bg-[#D8E0C2] rounded-[16px]  flex flex-col  justify-start">
         <div className="p-4">
           {' '}
@@ -91,7 +91,7 @@ const Dziala = () => {
         <h1 className="text-primary font-extrabold mt-4 text-[44px] leading-[46px] md:text-[65px] md:leading-[69px] md:tracking-[-1.2px] tracking-[-0.88px]">
               Jak to działa:
             </h1>
-            <div className="md:max-w-[1400px] mx-auto  justify-center items-center w-full relative  md:space-x-12 ">
+            <div className="md:max-w-[1400px] mx-auto  justify-center items-center w-full relative  space-x-12 ">
       <AliceCarousel
             mouseTracking
             items={items}

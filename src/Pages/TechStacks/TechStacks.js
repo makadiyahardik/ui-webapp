@@ -2,7 +2,7 @@ import React from 'react';
 
 const TechStacks = () => {
   return (
-    <div className="bg-[#F7F7F7] p-10">
+    <div className="bg-[#F7F7F7] md:p-10">
       <div className="md:max-w-[1400px] my-[2rem]  md:px-10 px-5 mx-auto w-full relative">
         <div className="flex flex-col justify-center items-center mx-auto w-full">
           <div className="">
