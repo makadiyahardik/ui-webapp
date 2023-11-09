@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Link as LinkScroll } from 'react-scroll';
 function Footer(props) {
   return (
@@ -65,6 +65,7 @@ function Footer(props) {
                       <img
                         src="./assets/images/apple.png"
                         className="h-[3rem] w-auto "
+                        alt='apple'
                       />
                     </div>
                     <div className="flex flex-col justify-start items-start mx-2">
@@ -88,6 +89,7 @@ function Footer(props) {
                       <img
                         src="./assets/images/playstore.png"
                         className="h-[3rem] w-auto "
+                        alt='app-store'
                       />
                     </div>
                     <div className="flex flex-col flex flex-col justify-start items-start mx-2 mx-2">

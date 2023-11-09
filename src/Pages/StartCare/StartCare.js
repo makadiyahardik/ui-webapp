@@ -34,6 +34,7 @@ const StartCare = () => {
                       <img
                         src="./assets/images/apple.png"
                         className="h-[3rem] w-auto "
+                        alt='ap'
                       />
                     </div>
                     <div className="flex flex-col justify-start items-start mx-2">
@@ -57,6 +58,7 @@ const StartCare = () => {
                       <img
                         src="./assets/images/playstore.png"
                         className="h-[3rem] w-auto "
+                        alt='store'
                       />
                     </div>
                     <div className="flex flex-col justify-start items-start mx-2">

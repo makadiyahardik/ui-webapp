@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 function Home() {
   return (
@@ -8,7 +8,7 @@ function Home() {
           <img
             src="./assets/images/BrandPattern.png"
             className="  absolute  md:block hidden -top-[15%] -left-10 h-[570px] w-[500px]"
-            alt=""
+            alt="BrandPattern"
           />
         </div>
 
@@ -32,6 +32,7 @@ function Home() {
                         <img
                           src="./assets/images/apple.png"
                           className="h-[3rem] w-auto "
+                          alt='apple-logo'
                         />
                       </div>
                       <div className="flex flex-col justify-start items-start mx-2">
@@ -55,6 +56,8 @@ function Home() {
                         <img
                           src="./assets/images/playstore.png"
                           className="h-[3rem] w-auto "
+
+                          alt='playstore'
                         />
                       </div>
                       <div className="flex flex-col justify-start items-start mx-2">
@@ -79,6 +82,8 @@ function Home() {
                       <img
                         src="./assets/images/urs.png"
                         className="w-auto h-[3.5rem]"
+
+                        alt='urs'
                       />
                       <div>
                         <p className="md:mx-4 mx-2 text-primary font-normal md:w-[300px] text-[16px] leading-[24px]">
@@ -94,7 +99,7 @@ function Home() {
               <img
                 src="./assets/images/herohome.png"
                 className="h-auto md:w-[800px] w-auto"
-                alt=""
+                alt="herohome"
               />
             </div>
           </div>

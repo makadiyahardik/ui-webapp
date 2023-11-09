@@ -1,21 +1,6 @@
 import React from 'react';
-import AliceCarousel from 'react-alice-carousel';
-import 'react-alice-carousel/lib/alice-carousel.css';
+
 function Problems() {
-  const items = [
-    <div className="my-[3rem]">
-      <div className="flex justify-center items-center w-[300px] text-center  bg-[#F7F7F7] rounded-full p-2">
-        <p className="text-[18px] font-normal leading-[19px] text-bgSeconday mx-3">
-          Zmień na angielski
-        </p>
-      </div>
-    </div>,
-  ];
-  const responsive = {
-    464: { items: 1 },
-    768: { items: 3 },
-    1024: { items: 4 },
-  };
 
   return (
     <div className="relative " id="Technology">

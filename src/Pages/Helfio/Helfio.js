@@ -26,18 +26,20 @@ const Helfio = () => {
           </h1>
         </div>
         <div className="my-[1rem] flex flex-col justify-center items-center md:max-w-[1400px] w-full  bg-[#8FBD12] bg-opacity-70 rounded-[60px] p-6 relative overflow-hidden">
-        <div className='absolute right-0  top-0 overflow-clip md:flex hidden  opacity-30'>
-                        <img
-                          src="./assets/images/rightbody.svg"
-                          className="h-auto w-auto "
-                        />
-                      </div>
-        <div className='absolute left-0  top-0 overflow-clip md:flex hidden   opacity-30'>
-                        <img
-                          src="./assets/images/leftbody.svg"
-                          className="h-auto w-auto "
-                        />
-                      </div>
+          <div className="absolute right-0  top-0 overflow-clip md:flex hidden  opacity-30">
+            <img
+              src="./assets/images/rightbody.svg"
+              className="h-auto w-auto "
+              alt="rightbody"
+            />
+          </div>
+          <div className="absolute left-0  top-0 overflow-clip md:flex hidden   opacity-30">
+            <img
+              src="./assets/images/leftbody.svg"
+              className="h-auto w-auto "
+              alt="leftbody"
+            />
+          </div>
           <h1 className="text-[#FFF] text-center font-extrabold mt-4 md:text-[66px] leading-[155%] md:tracking-[-1.3px] md:w-[968px] w-full text-[30px] tracking-[-0.6px] ">
             UDOWODNIONE NAUKOWO ROZWIĄZANIE STWORZONE PRZEZ LEKARZY I
             SPECJALISTÓW
@@ -52,18 +54,16 @@ const Helfio = () => {
           </p>
         </div>
 
-        <div className='flex flex-col justify-center items-center w-full mx-auto text-center'>
-        <h1 className="customeColor font-bold md:text-[100px] md:tracking-[-2px]  my-2 md:leading-[155px]
-        text-[45px] leading-[112%] tracking-[-0.9px] ">
-        Na jakie problemy zdrowotne
- odpowiada Helfio
+        <div className="flex flex-col justify-center items-center w-full mx-auto text-center">
+          <h1
+            className="customeColor font-bold md:text-[100px] md:tracking-[-2px]  my-2 md:leading-[155px]
+        text-[45px] leading-[112%] tracking-[-0.9px] "
+          >
+            Na jakie problemy zdrowotne odpowiada Helfio
           </h1>
-
-
-
         </div>
       </div>
-      <Problems/>
+      <Problems />
     </div>
   );
 };

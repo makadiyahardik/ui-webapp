@@ -6,7 +6,6 @@ import Dziala from './Pages/Dziala/Dziala';
 import Helfio from './Pages/Helfio/Helfio';
 import TechStacks from './Pages/TechStacks/TechStacks';
 import Plans from './Pages/Plans/Plans';
-import PlanSlider from './Components/PlanSlider/PlanSlider';
 import Applications from './Pages/Applications/Applications';
 import StartCare from './Pages/StartCare/StartCare';
 import FAQ from './Pages/FAQ/FAQ';
