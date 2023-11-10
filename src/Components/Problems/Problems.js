@@ -44,34 +44,34 @@ function Problems() {
   ]
 
   const items2=[
-    <div className=" mx-5">
+    <div className=" mx-3">
             <div className="flex justify-center items-center w-auto text-center  bg-[#F7F7F7] rounded-full p-2">
               <p className="text-[18px] font-normal leading-[19px] text-bgSeconday mx-3">
                 Otyłość
               </p>
             </div>
           </div>,
-          <div className=" mx-5">
+          <div className=" mx-3">
             <div className="flex justify-center items-center w-auto text-center  bg-[#F7F7F7] rounded-full p-2">
               <p className="text-[18px] font-normal leading-[19px] text-bgSeconday mx-3">
                 Insulinooporność
               </p>
             </div>
           </div>,
-          <div className=" mx-5">
+          <div className=" mx-3">
             <div className="flex justify-center items-center w-auto text-center  bg-[#F7F7F7] rounded-full p-2">
               <p className="text-[18px] font-normal leading-[19px] text-bgSeconday mx-3">
                 Niedoczynność  i Hashimoto
               </p>
             </div>
           </div>,
-          <div className=" mx-5">
+          <div className=" mx-3">
             <div className="flex justify-center items-center w-auto text-center  bg-[#F7F7F7] rounded-full p-2">
               <p className="text-[18px] font-normal leading-[19px] text-bgSeconday mx-3">
                 Zmień nitya
               </p>
             </div>
-          </div>,<div className=" mx-5">
+          </div>,<div className=" mx-3">
             <div className="flex justify-center items-center w-auto text-center  bg-[#F7F7F7] rounded-full p-2">
               <p className="text-[18px] font-normal leading-[19px] text-bgSeconday mx-3">
                 Zmień uva laov
@@ -84,6 +84,11 @@ function Problems() {
     464: { items: 3 },
     768: { items: 3 },
     1024: { items: 4 },
+  };
+  const responsive2 = {
+    464: { items: 3 },
+    768: { items: 3 },
+    1024: { items: 5 },
   };
   return (
     <div className="relative " id="Technology">
@@ -113,7 +118,7 @@ function Problems() {
          <AliceCarousel
            mouseTracking
            items={items2}
-           responsive={responsive}
+           responsive={responsive2}
            infinite={true}
            disableDotsControls
            disableButtonsControls
