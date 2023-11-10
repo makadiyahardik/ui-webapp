@@ -1,7 +1,6 @@
 import React from 'react';
 
 function Problems() {
-
   return (
     <div className="relative " id="Technology">
       <div className="md:max-w-[1400px] mx-auto  justify-center items-center w-full relative  ">
@@ -9,49 +8,49 @@ function Problems() {
           <div className="">
             <div className="flex justify-center items-center w-auto text-center  bg-[#F7F7F7] rounded-full p-2">
               <p className="text-[18px] font-normal leading-[19px] text-bgSeconday mx-3">
-                Zmień na
+                Stany przedcukrzycowe i cukrzyca t2
               </p>
             </div>
           </div>
           <div className="my-3">
             <div className="flex justify-center items-center w-auto text-center  bg-[#F7F7F7] rounded-full p-2">
               <p className="text-[18px] font-normal leading-[19px] text-bgSeconday mx-3">
-                livaskuya na
+                Insulinooporność
               </p>
             </div>
           </div>{' '}
           <div className="my-3">
             <div className="flex justify-center items-center w-auto text-center  bg-[#F7F7F7] rounded-full p-2">
               <p className="text-[18px] font-normal leading-[19px] text-bgSeconday mx-3">
-                Zmień na
+                Stany przedcukrzycowe i cukrzyca T2
               </p>
             </div>
           </div>{' '}
           <div className="my-3">
             <div className="flex justify-center items-center w-auto text-center  bg-[#F7F7F7] rounded-full p-2">
               <p className="text-[18px] font-normal leading-[19px] text-bgSeconday mx-3">
-                Zmień xikag
+                Zaburzenia lipidowe
               </p>
             </div>
           </div>{' '}
           <div className="my-3">
             <div className="flex justify-center items-center w-auto text-center  bg-[#F7F7F7] rounded-full p-2">
               <p className="text-[18px] font-normal leading-[19px] text-bgSeconday mx-3">
-                Zmień niga
+                Otyłość
               </p>
             </div>
           </div>{' '}
           <div className="my-3">
             <div className="flex justify-center items-center w-auto text-center  bg-[#F7F7F7] rounded-full p-2">
               <p className="text-[18px] font-normal leading-[19px] text-bgSeconday mx-3">
-                Zmień lika
+                Insulinooporność
               </p>
             </div>
           </div>{' '}
           <div className="my-3">
             <div className="flex justify-center items-center w-auto text-center  bg-[#F7F7F7] rounded-full p-2">
               <p className="text-[18px] font-normal leading-[19px] text-bgSeconday mx-3">
-                Zmień oliva
+                Niedoczynność tarczycy i Hashimoto
               </p>
             </div>
           </div>{' '}
@@ -65,7 +64,7 @@ function Problems() {
           <div className="my-3">
             <div className="flex justify-center items-center w-auto text-center  bg-[#F7F7F7] rounded-full p-2">
               <p className="text-[18px] font-normal leading-[19px] text-bgSeconday mx-3">
-                Zmień na
+                Przedwczesne starzenie
               </p>
             </div>
           </div>{' '}
@@ -76,57 +75,8 @@ function Problems() {
               </p>
             </div>
           </div>{' '}
-          <div className="my-3">
-            <div className="flex justify-center items-center w-auto text-center  bg-[#F7F7F7] rounded-full p-2">
-              <p className="text-[18px] font-normal leading-[19px] text-bgSeconday mx-3">
-                Zmień na
-              </p>
-            </div>
-          </div>{' '}
-          <div className="my-3">
-            <div className="flex justify-center items-center w-auto text-center  bg-[#F7F7F7] rounded-full p-2">
-              <p className="text-[18px] font-normal leading-[19px] text-bgSeconday mx-3">
-                Zmień na
-              </p>
-            </div>
-          </div>
-          <div className="my-3">
-            <div className="flex justify-center items-center w-auto text-center  bg-[#F7F7F7] rounded-full p-2">
-              <p className="text-[18px] font-normal leading-[19px] text-bgSeconday mx-3">
-                Zmień zakita
-              </p>
-            </div>
-          </div>      <div className="my-3">
-            <div className="flex justify-center items-center w-auto text-center  bg-[#F7F7F7] rounded-full p-2">
-              <p className="text-[18px] font-normal leading-[19px] text-bgSeconday mx-3">
-                Zmień bela bel
-              </p>
-            </div>
-          </div>      <div className="my-3">
-            <div className="flex justify-center items-center w-auto text-center  bg-[#F7F7F7] rounded-full p-2">
-              <p className="text-[18px] font-normal leading-[19px] text-bgSeconday mx-3">
-                Zmień naosg fine
-              </p>
-            </div>
-          </div>      <div className="my-3">
-            <div className="flex justify-center items-center w-auto text-center  bg-[#F7F7F7] rounded-full p-2">
-              <p className="text-[18px] font-normal leading-[19px] text-bgSeconday mx-3">
-                Zmień naesf
-              </p>
-            </div>
-          </div>      <div className="my-3">
-            <div className="flex justify-center items-center w-auto text-center  bg-[#F7F7F7] rounded-full p-2">
-              <p className="text-[18px] font-normal leading-[19px] text-bgSeconday mx-3">
-                Zmień na jznjz
-              </p>
-            </div>
-          </div>      <div className="my-3">
-            <div className="flex justify-center items-center w-auto text-center  bg-[#F7F7F7] rounded-full p-2">
-              <p className="text-[18px] font-normal leading-[19px] text-bgSeconday mx-3">
-                Zmień na
-              </p>
-            </div>
-          </div>
+    
+    
         </div>
       </div>
     </div>

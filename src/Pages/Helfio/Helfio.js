@@ -3,7 +3,8 @@ import Problems from '../../Components/Problems/Problems';
 
 const Helfio = () => {
   return (
-    <div className="md:max-w-[1400px] my-[2rem]  md:px-10 px-5 mx-auto w-full relative">
+    <div>
+ <div className="md:max-w-[1400px] my-[2rem]  md:px-10 px-5 mx-auto w-full relative">
       <div className="flex flex-col justify-center items-center mx-auto">
         <div>
           {' '}
@@ -63,8 +64,11 @@ const Helfio = () => {
           </h1>
         </div>
       </div>
-      <Problems />
+   
     </div>
+    <Problems />
+    </div>
+   
   );
 };
 
