@@ -88,7 +88,7 @@ const Dziala = () => {
        }
   return (
     <div className="md:max-w-[1400px]  md:px-10  mx-auto w-full relative">
-        <h1 className="text-primary font-extrabold mt-4 text-[44px] leading-[46px] md:text-[65px] md:leading-[69px] md:tracking-[-1.2px] tracking-[-0.88px]">
+        <h1 className="text-primary font-extrabold mt-4 text-[44px] leading-[46px] md:text-[65px] md:leading-[69px] md:tracking-[-1.2px] tracking-[-0.88px] md:px-0 px-5">
               Jak to działa:
             </h1>
             <div className="md:max-w-[1400px] mx-auto  justify-center items-center w-full relative  space-x-12 ">
