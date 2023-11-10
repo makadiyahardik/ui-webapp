@@ -47,8 +47,10 @@ padding: 12px 26px 12px 33px;
 }
 
 .footerbg{
-  border-radius: 1257.588px;
+z-index: -1000;
 background: linear-gradient(180deg, rgba(225, 245, 215, 0.40) 0%, rgba(215, 245, 218, 0.40) 100%);
-filter: blur(207px);
+
+filter: blur(230px);
+-webkit-filter: blur(230px);
 
 }

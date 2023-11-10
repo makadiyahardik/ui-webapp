@@ -80,12 +80,17 @@ function Applications() {
               <div>
                 <img
                   src="./assets/images/applehealth.png"
-                  className="w-[200px] h-[200px"
+                  className="w-[200px] h-[200px]"
                   alt=""
                 />
               </div>
-              <div className="customeButton text-[#FFF] font-medium mt-4 text-[16px] leading-[19px] -tracking-[0.36] ">
-                Learn More
+              <div className="rounded-[20px] flex justify-center items-center space-x-3 border-2 border-[#FFF]  py-3 pr-[26px] pl-[33px]  bg-opacity-20 bg-[#FFF]  text-[#FFF] font-medium mt-4 text-[18px] leading-[19px] -tracking-[0.36] ">
+                <div>Learn More</div>
+                <div> <img
+                  src="./assets/images/Learn_More.png"
+                  className="w-6 h-6"
+                  alt=""
+                /></div>
               </div>
             </div>
           </div>
@@ -95,17 +100,22 @@ function Applications() {
                 WSPIERANE PRZEZ
               </p>
               <h1 className="text-[#FFF] font-extrabold mt-4 text-[40px] leading-[74px] -tracking-[0.96px] ">
-                Apple Health
+            Google Fit
               </h1>
               <div>
                 <img
                   src="./assets/images/GoogleFit.svg"
-                  className="w-[200px] h-[200px"
+                  className="w-[200px] h-[200px]"
                   alt=""
                 />
               </div>
-              <div className="customeButton text-[#FFF] font-medium mt-4 text-[16px] leading-[19px] -tracking-[0.36] ">
-                Learn More
+              <div className="rounded-[20px] flex justify-center items-center space-x-3 border-2 border-[#FFF]  py-3 pr-[26px] pl-[33px]  bg-opacity-20 bg-[#FFF]  text-[#FFF] font-medium mt-4 text-[18px] leading-[19px] -tracking-[0.36] ">
+                <div>Learn More</div>
+                <div> <img
+                  src="./assets/images/Learn_More.png"
+                  className="w-6 h-6"
+                  alt=""
+                /></div>
               </div>
             </div>
           </div>

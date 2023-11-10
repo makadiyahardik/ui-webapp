@@ -2,9 +2,10 @@ import React from 'react';
 import { Link as LinkScroll } from 'react-scroll';
 function Footer(props) {
   return (
-    <div className="md:mt-[0px] relative" id="Footer">
-      <div className="footerbg h-[747px] w-[800px] absolute bottom-0 right-0 overflow-clip  opacity-30 rotate-10"></div>
-      <div className="w-full bg-[#FFF]  md:px-10 px-5">
+    <div className="md:mt-[0px] " id="Footer">
+    
+
+      <div className="w-full   md:px-10 px-5">
         <div className="  md:max-w-[1400px]  md:px-10 px-5 mx-auto flex flex-col w-full">
           <div
             className="h-[1px] w-full bg-[#EDF4EA]
@@ -14,7 +15,7 @@ function Footer(props) {
           <div className="w-full grid md:grid-cols-4 text-[#000] sm:grid-cols-2  mx-auto  gap-x-2 items-start  md:gap-x-16 md:gap-y-5 my-5 gap-y-8">
             <div className="flex flex-col md:justify-start justify-center md:text-left
              text-center items-center w-full ">
-              <ul className="text-[16px] font-medium md:leading-[17px] leading-[15px]  -tracking-[0.32px]  text-secondary">
+              <ul className="text-[ 16px] font-medium md:leading-[17px] leading-[15px]  -tracking-[0.32px]  text-secondary">
                 <li>Ons</li>
                 <li className="my-3"> Blog</li>
                 <li className="my-3">Biznes </li>
@@ -111,7 +112,7 @@ function Footer(props) {
           </div>
         </div>
       </div>
-      <div className="w-full bg-[#FFF] py-5 md:px-10 px-5">
+      <div className="w-full py-5 md:px-10 px-5">
         <div className="  flex justify-center items-center text  text-center text-[16px] font-medium md:leading-[17px] leading-[15px]  -tracking-[0.32px]  text-secondary">
           Prawa autorskie © Helfio Sp. z o. o. <br />
           ul. Grzybowska 87, 00-844 Warszawa, Polska

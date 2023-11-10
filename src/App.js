@@ -9,7 +9,6 @@ import Plans from './Pages/Plans/Plans';
 import Applications from './Pages/Applications/Applications';
 import StartCare from './Pages/StartCare/StartCare';
 import FAQ from './Pages/FAQ/FAQ';
-import Footer from './Components/Footer/Footer';
 
 
 function App() {
@@ -48,7 +47,7 @@ function App() {
      <StartCare/>
 
      <FAQ/>
-     <Footer/>
+    
    </React.Fragment>
   );
 }
