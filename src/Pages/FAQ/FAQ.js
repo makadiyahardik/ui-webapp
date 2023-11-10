@@ -32,7 +32,7 @@ const FAQ = () => {
   return (
 
     <div className='relative'>
-    <div className="footerbg h-[747px] w-[800px] absolute bottom-0 right-0 "></div>
+    <div className="footerbg h-[647px] w-[700px] overflow-hidden -bottom-[40%]  absolute md:bottom-0 right-0 "></div>
     <div className="flex flex-col mt-[3rem]  justify-center items-center w-full mx-auto">
        
        <div className="flex flex-col justify-center items-center w-full mx-auto">

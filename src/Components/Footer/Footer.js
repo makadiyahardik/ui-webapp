@@ -2,7 +2,7 @@ import React from 'react';
 import { Link as LinkScroll } from 'react-scroll';
 function Footer(props) {
   return (
-    <div className="md:mt-[0px] " id="Footer">
+    <div className="md:mt-[0px]  " id="Footer">
     
 
       <div className="w-full   md:px-10 px-5">
