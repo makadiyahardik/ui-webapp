@@ -61,7 +61,7 @@ function Problems() {
           <div className=" mx-3">
             <div className="flex justify-center items-center w-auto text-center  bg-[#F7F7F7] rounded-full p-2">
               <p className="text-[18px] font-normal leading-[19px] text-bgSeconday mx-3">
-                Niedoczynność  i Hashimoto
+                   Hashimoto
               </p>
             </div>
           </div>,
