@@ -36,7 +36,7 @@ function Clients() {
           <div className=" flex justify-between items-center">
             <img
               src="./assets/images/star.png"
-              className="w-auto h-[3rem]"
+              className="w-auto md:h-[3rem] h-[2rem]"
               alt=""
             />
 
