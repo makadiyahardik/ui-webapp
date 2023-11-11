@@ -54,3 +54,6 @@ filter: blur(230px);
 -webkit-filter: blur(230px);
 
 }
+.ReactCollapse--collapse {
+  transition: height 500ms;
+}
